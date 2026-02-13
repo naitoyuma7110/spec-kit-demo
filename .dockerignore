@@ -1,0 +1,56 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+README-TODO-APP.md
+docs/
+*.md
+!package.json
+
+# Specs
+specs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies (will be installed in container)
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+.nuxt/
+.output/
+.next/
+
+# Test
+coverage/
+.nyc_output/
+test-results/
+
+# Misc
+.cache/
+.temp/
+.tmp/
+
